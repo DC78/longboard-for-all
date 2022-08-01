@@ -1,0 +1,14 @@
+.circle {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to top left, #0062bE, #00A2FE);
+  /*background: linear-gradient(to top left, #c32d46, #c55067);*/
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  z-index: 10;
+}
